@@ -1,7 +1,6 @@
 {
   "name": "scrapper",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^13.0.1"
-  }
+    "puppeteer": "^13.0.1",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j4kmine/puppeteer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/j4kmine/puppeteer/issues"
+  },
+  "homepage": "https://github.com/j4kmine/puppeteer#readme",
+  "description": ""
 }
